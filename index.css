@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .movie-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .movie-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  #App_title {
+    color: red;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  #poster {
+    border-radius: 5%;
+  }
+  
+  .input-field {
+    width: 25%;
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color: black;
+    border-bottom: 2px solid white;
+    color: white;
+    /* margin-bottom: 25px; */
+    align-items: center;
+  }
+  
+  #movieName {
+    margin-top: 20px; /* Adjusted for a more consistent margin */
+    margin-right: 125px;
+  }
+  
+  #yearLaunched {
+    margin-top: 10px; /* Adjusted for a more consistent margin */
+  }
+  #searchButton {
+    width: 15%;
+    height: 40px;
+    color: white;
+    background-color: red;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: large;
+    margin: 25px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  
+  .poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #poster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 250px;
+  }

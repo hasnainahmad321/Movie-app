@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie Search app</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="App_title">Movie Match Search</h1>
+    <label for="movieName" id="movie_name">Movie Name:</label>
+    <input type="text" id="movieName" class="input-field" />
+
+    <label for="yearLaunched">Year Launched:</label>
+    <input type="text" id="yearLaunched" class="input-field" />
+    <br />
+    <div class="btn">
+      <button id="searchButton">Search</button>
+    </div>
+    <div class="btn2">
+      <button id="searchButton2">Reset</button>
+    </div>
+    <ul id="movieList" class="movie-list">
+      list
+    </ul>
+    <div class="poster">
+      <img src="" id="poster" alt="poster" />
+    </div>
+    <p id="errorMessage" class="error"></p>
+    <script src="movie.js"></script>
+  </body>
+</html>
