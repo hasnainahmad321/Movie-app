@@ -1,5 +1,0 @@
-react
-libaray ui ko update karte hai 
-single page application ish mn na url chage hota hai naq page refresh hota hai
-Reusable html k kuxh stucture bnatey hian aur ush ka data change kar letey hgin
-jsx 
